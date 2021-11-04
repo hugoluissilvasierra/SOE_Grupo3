@@ -4,10 +4,10 @@
 `$ git clone https://github.com/hugoluissilvasierra/SOE_Grupo3.git`
 
 ## Crear nuestra rama
-`$ touch feature/nombre_apellido`
+`$ git checkout -b feature/NombreApellido`
 
 ## Crear un archivo html y editarlo
-`$ touch feature/nombre_apellido.html`
+`$ touch nombreApellido.html`
 
 ## Agregar archivos
 `$ git add .`
@@ -16,4 +16,4 @@
 `$ git commit -m 'Inicial commit Nombre Apellido'`
 
 ## Subir cambios
-`$ git push origin feature/nombre_apellido`
+`$ git push origin feature/NombreApellido`
